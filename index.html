@@ -19,7 +19,7 @@
     font-family: Nunito, system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.5;
   }
   main { max-width: 34rem; margin: 0 auto; padding: 2.5rem 1.25rem 3rem; }
-  .serie { font-family: Caveat, cursive; font-size: 2.6rem; line-height: 1; margin: 0; }
+  .serie { font-family: Caveat, cursive; font-size: 2.6rem; font-weight: 700; line-height: 1; margin: 0; }
   .serie span { background: linear-gradient(transparent 58%, var(--marca) 58%, var(--marca) 92%, transparent 92%); padding: 0 .15em; }
   .sub { margin: .6rem 0 2rem; color: var(--apoio); font-size: 1.05rem; }
   h2 { font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--apoio); margin: 0 0 .75rem; }
@@ -37,7 +37,8 @@
     display: block; text-align: center; text-decoration: none; font-weight: 800; font-size: 1.1rem;
     background: var(--tinta); color: var(--lousa); padding: .9rem 1rem; border-radius: 10px;
   }
-  .botao:focus-visible, .botao:hover { outline: 3px solid var(--marca); outline-offset: 3px; }
+  .botao:hover { background: #2A3B58; }
+  .botao:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--marca), 0 0 0 6px var(--tinta); }
   .peso { display: block; text-align: center; margin-top: .45rem; font-size: .85rem; color: var(--apoio); }
   .nota { border-top: 2px dashed var(--fio); padding-top: 1rem; color: var(--apoio); font-size: .95rem; }
   footer { margin-top: 2rem; font-size: .85rem; color: var(--apoio); }
@@ -45,7 +46,7 @@
 </head>
 <body>
 <main>
-  <p class="serie"><span>Rabiscando a Palavra</span></p>
+  <h1 class="serie"><span>Rabiscando a Palavra</span></h1>
   <p class="sub">Materiais de estudo das lições da Escola Bíblica Dominical (Lições Bíblicas Adultos), em PDF, para estudar em casa ou levar para a classe.</p>
 
   <h2>Lições com material</h2>
